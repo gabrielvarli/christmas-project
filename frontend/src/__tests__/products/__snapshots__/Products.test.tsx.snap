@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Products page matches the snapshot 1`] = `
+<div>
+  <div>
+    <section
+      class="relative bg-[url('/images/framsidajulgran.png')] bg-cover bg-center bg-no-repeat max-h-[509px] flex items-center justify-center"
+    >
+      <div
+        class="absolute inset-0 bg-gradient-to-b from-transparent via-black/30 to-black/50 z-0"
+      />
+      <div
+        class="relative z-10 mx-auto max-w-screen-xl px-6 py-24 text-white"
+      >
+        <div
+          class="text-center sm:text-left"
+        >
+          <h1
+            class="text-4xl sm:text-5xl lg:text-6xl font-bold font-dancing leading-tight"
+          >
+            Vi erbjuder allt från
+            <strong
+              class="block sm:text-6xl lg:text-7xl font-extrabold text-rose-400 mt-2"
+            >
+              Klassiska julgranar
+            </strong>
+          </h1>
+          <p
+            class="mt-4 text-lg sm:text-xl max-w-lg mx-auto sm:mx-0"
+          >
+            till moderna klassiska julgranar, ljusslingor och små, dekorativa detaljer
+          </p>
+        </div>
+      </div>
+    </section>
+    <div
+      class="max-w-6xl mx-auto flex flex-wrap justify-center gap-8 py-12"
+    >
+      <aside
+        aria-live="polite"
+        class="flex flex-col items-center text-center mt-20 p-4 bg-red-100 rounded-lg shadow-md"
+        role="alert"
+      >
+        <h2
+          class="font-dancing text-5xl text-red-600 mb-4"
+        >
+          Oh no!
+        </h2>
+        <p
+          class="text-gray-800 mb-2"
+        >
+          Något gick fel på
+           
+          <span
+            class="font-semibold"
+          >
+            Christmas Shopping!
+          </span>
+        </p>
+        <p
+          class="text-gray-700 italic"
+        >
+          No products available at the moment. Please check back later.
+        </p>
+        <img
+          alt="Error illustration"
+          class="mt-4 w-32 h-32 object-contain"
+          src="/images/doftljus.png"
+        />
+      </aside>
+    </div>
+  </div>
+</div>
+`;
