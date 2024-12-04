@@ -10,6 +10,7 @@ Test-ui  npm run test-ui
 //test
 npm run test
 
+// skapa först backend mapp sedan
 Mkdir controllers models routes utilities
 
 Ls
